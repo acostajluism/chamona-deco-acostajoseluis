@@ -1,82 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/animacones.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <img src="../Imagenes/logo.jpg" alt="logo" />
+    </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/grids.css">
-    <title>Chamona.Deco</title>
-</head>
-
-<body>
-    <div id="grilla">
-
-        <!--  Cabezera de pagina  -->
-        <header class="border">
-            <div>
-                <img src="../Imagenes/logo.jpg" alt="logo">
-            </div>
-        </header>
-
-        <nav>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../paginas/productos.html">PRODUCTOS</a></li>
-                <li><a href="../paginas/informacion.html">INFORMACION</a></li>
-                <li><a href="../paginas/contacto.html">CONTACTO</a></li>
-                <li><a href="../paginas/registro.html">REGISTRO</a></li>
-            </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-lg-2 col-md-3 col-sm-12 col-xs-12">
+          <ul
+            class="nav d-flex flex-wrap flex-lg-column flex-md-column align-content-around justify-content-around"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/informacion.html"
+                >INFORMACION</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/registro.html">REGISTRO</a>
+            </li>
+          </ul>
         </nav>
-        <!-- Informacion -->
-        <main>
-            <section>
-                <article>
-                    <p style="border: 2px solid #000000">
-                        What is Lorem Ipsum?
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting,
-                        remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                        passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </p>
-                </article>
-
-            </section>
-        </main>
-        <!-- Pie de pagina -->
-        <footer class="border">
-            <div>
-
-                <ul>
-                    <li><a href="www.instagram.com">Instagram</a></li>
-                    <li><a href="www.facebook.com">Facebook</a></li>
-                </ul>
-
-
-
-                <ul>
-                    <li><span>Telefono</span></li>
-                    <li><a href="mailto:mail@mail.com">Mail</a></li>
-                    <li><span>Direccion</span></li>
-                </ul>
-
-
-
-
-            </div>
-
-
-
-        </footer>
+        <div class="col-lg-10 col-md-9 col-sm-12 col-xs-12 vh-100">
+            <div class="card text-center">
+                <div class="card-header">
+                  Carta de Presentacion
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Chamona Deco</h5>
+                  <p class="card-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+                  <a href="../index.html" class="btn btn-primary">Ir al Inicio</a>
+                </div>
+                <div class="card-footer text-muted">
+                  Gracias!
+                </div>
+              </div>
+        </div>
+      </div>
     </div>
-</body>
 
+    <footer class="container-fluid">
+      <div class="d-flex flex-row flex-nowrap justify-content-between">
+        <ul>
+          <li><a href="www.instagram.com">Instagram</a></li>
+          <li><a href="www.facebook.com">Facebook</a></li>
+        </ul>
+
+        <ul>
+          <li><span>Telefono</span></li>
+          <li><a href="mailto:mail@mail.com">Mail</a></li>
+          <li><span>Direccion</span></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
