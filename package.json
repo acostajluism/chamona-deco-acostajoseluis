@@ -1,0 +1,24 @@
+{
+  "name": "chamona-deco-acostajoseluis-master-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+	  "sass:watch": "sass --watch styles-scss/main.scss styles-css/main.css",
+	  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acostajluism/chamona-deco-acostajoseluis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acostajluism/chamona-deco-acostajoseluis/issues"
+  },
+  "homepage": "https://github.com/acostajluism/chamona-deco-acostajoseluis#readme",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.54.6"
+  }
+}

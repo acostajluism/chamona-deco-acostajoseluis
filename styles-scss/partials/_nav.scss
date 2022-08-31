@@ -1,0 +1,26 @@
+@import "colors";
+
+nav{
+    background-color: $bg-nav;
+
+    ul{
+        li{
+            margin: 5px;
+            margin-bottom: 5px;
+            padding: 5px;
+            background-color: rgb(182, 120, 28);
+            border-radius: 05px;
+            
+            a{
+                font-size: 20px;
+                text-decoration: none;
+                color: #15182c;
+                &:hover{
+                    font-weight: bold;
+                    color: #1025af;
+
+                }
+            }
+        }
+    }
+}
