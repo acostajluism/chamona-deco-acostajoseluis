@@ -1,13 +1,19 @@
 @import "colors";
 
+@mixin mp ($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+    
+}
+
 nav{
-    background-color: $bg-nav;
+    background-color: map-get($map: $colores, $key: bg-nav);
+
 
     ul{
         li{
-            margin: 5px;
+            @include mp(5px, 5px);
             margin-bottom: 5px;
-            padding: 5px;
             background-color: rgb(182, 120, 28);
             border-radius: 05px;
             

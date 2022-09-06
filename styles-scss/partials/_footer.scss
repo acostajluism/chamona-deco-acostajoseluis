@@ -1,7 +1,9 @@
 @import "colors";
+@import "nav";
 
 footer{
-    background-color: $bg-footer;
+    background-color: map-get($map: $colores, $key: bg-footer);
+    @include mp(0.5rem, 0.5rem);
     ul{
         list-style-type: none;
         li{
