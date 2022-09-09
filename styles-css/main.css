@@ -1,22 +1,4 @@
-nav {
-  background-color: #f1e1dc;
-}
-nav ul li {
-  margin: 5px;
-  padding: 5px;
-  margin-bottom: 5px;
-  background-color: rgb(182, 120, 28);
-  border-radius: 5px;
-}
-nav ul li a {
-  font-size: 20px;
-  text-decoration: none;
-  color: #15182c;
-}
-nav ul li a:hover {
-  font-weight: bold;
-  color: #1025af;
-}
+/*-----------------Clases generales--------------------*/
 
 header {
   background-color: #fff7f4;
@@ -35,32 +17,12 @@ nav {
 nav ul li {
   margin: 5px;
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 5px; 
   background-color: rgb(182, 120, 28);
   border-radius: 5px;
 }
 nav ul li a {
-  font-size: 20px;
-  text-decoration: none;
-  color: #15182c;
-}
-nav ul li a:hover {
-  font-weight: bold;
-  color: #1025af;
-}
-
-nav {
-  background-color: #f1e1dc;
-}
-nav ul li {
-  margin: 5px;
-  padding: 5px;
-  margin-bottom: 5px;
-  background-color: rgb(182, 120, 28);
-  border-radius: 5px;
-}
-nav ul li a {
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
   color: #15182c;
 }
@@ -86,5 +48,91 @@ footer ul li span:hover, footer ul li a:hover {
   color: #1025af;
 }
 
+/*-------------------Clases especiales-----------------*/
+
+section#productos {
+  background-color: #64ebed1f;
+}
+
+.card-productos {
+  background-color: #d1e7dd;
+  border: 01px solid rgba(0, 0, 0, 0.42);
+  color: #8d745f;
+  width: 25em;
+  margin: 1rem;
+  height: 30em;
+}
+
+.card-imagen {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.card-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button {
+  background-color: #A64208;
+  color: #F3F9F7;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+/*--------------------Animaciones----------------------*/
+
+.card-productos {
+  transition: background-color 1s;
+}
+
+.card-productos:hover {
+  background-color: #b7daca;
+  transform: scale(1.05, 1.05);
+  border-radius: 05px;
+  border: 1.2px solid rgb(0, 0, 0);
+}
+
+nav {
+  background-image: linear-gradient(#f1e1dc, rgb(134, 196, 134));
+}
+
+/*--------------------Media Queries-------------------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  
+  .card-productos {
+    width: 18em;
+    margin: 1rem;
+    height: 23em;
+  }
+
+  .card-imagen {
+    width: 12rem;
+    height: 12rem
+  }
+ 
+  nav ul li {
+    margin: 1px;
+    padding: 2px;
+    width: 3em;
+    height: 2em;
+    background-color: transparent;
+  }
+
+  nav ul li a {
+    font-size: 0.5rem !important;
+    padding: 0 !important;
+    padding-top: 15% !important; 
+  }  
+
+  header img {
+    width: 100%;
+    height: 100%;
+  }
+
+}
 
 /*# sourceMappingURL=main.css.map */
