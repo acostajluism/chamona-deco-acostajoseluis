@@ -1,108 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles-css/bootstrap.css" />
-    <link rel="stylesheet" href="../styles-css/styles.css" />
-    <link rel="stylesheet" href="../styles-css/main.css">
-    <link rel="stylesheet" href="../styles-css/animacones.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="container-fluid">
-      <img src="../Imagenes/logo.jpg" alt="logo" />
-    </header>
 
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="col-lg-2 col-md-3 col-sm-12 col-xs-12">
-          <ul
-            class="nav d-flex flex-wrap flex-lg-column flex-md-column align-content-around justify-content-around"
-          >
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../paginas/productos.html">PRODUCTOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../paginas/informacion.html"
-                >INFORMACION</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../paginas/contacto.html">CONTACTO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../paginas/registro.html">REGISTRO</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="col-lg-10 col-md-9 col-sm-12 col-xs-12 vh-100">
-          <form>
-            <div class="form-group row">
-              <label for="inputEmail" class="col-sm-2 col-form-label"
-                >Email</label
-              >
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputName" class="col-sm-2 col-form-label"
-                >Nombre</label
-              >
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputName" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputTel" class="col-sm-2 col-form-label"
-                >Telefono</label
-              >
-              <div class="col-sm-10">
-                <input type="tel" class="form-control" id="inputTel" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputMessage" class="col-sm-2 col-form-label"
-                >Mensaje</label
-              >
-              <div class="col-sm-10">
-                <textarea
-                  name="mensaje_contacto"
-                  id="mensaje_contacto"
-                  cols="30"
-                  rows="10"
-                ></textarea>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="toma contacto con nosotros">
+  <meta name="keywords" content="deco, decoracion, caminos, bolsos">
+  <link rel="stylesheet" href="../styles-css/bootstrap.css" />
+  <link rel="stylesheet" href="../styles-css/main.css">
+  <title>Contacto</title>
+</head>
 
-            <div class="form-group row">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-              </div>
+<body>
+  <header class="container-fluid">
+    <img src="../Imagenes/logo.jpg" alt="logo" />
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-lg-2 col-md-3 col-sm-12 col-xs-12">
+        <ul class="nav d-flex flex-wrap flex-lg-column flex-md-column align-content-around justify-content-around">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/productos.html">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/informacion.html">INFORMACION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/contacto.html">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/registro.html">REGISTRO</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="col-lg-10 col-md-9 col-sm-12 col-xs-12 vh-100">
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail" />
             </div>
-          </form>
-        </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputName" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputTel" class="col-sm-2 col-form-label">Telefono</label>
+            <div class="col-sm-10">
+              <input type="tel" class="form-control" id="inputTel" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputMessage" class="col-sm-2 col-form-label">Mensaje</label>
+            <div class="col-sm-10">
+              <textarea name="mensaje_contacto" id="mensaje_contacto" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
+  </div>
 
-    <footer class="container-fluid">
-      <div class="d-flex flex-row flex-nowrap justify-content-between">
-        <ul>
-          <li><a href="www.instagram.com">Instagram</a></li>
-          <li><a href="www.facebook.com">Facebook</a></li>
-        </ul>
+  <footer class="container-fluid">
+    <div class="d-flex flex-row flex-nowrap justify-content-between">
+      <ul>
+        <li><a href="www.instagram.com">Instagram</a></li>
+        <li><a href="www.facebook.com">Facebook</a></li>
+      </ul>
 
-        <ul>
-          <li><span>Telefono</span></li>
-          <li><a href="mailto:mail@mail.com">Mail</a></li>
-          <li><span>Direccion</span></li>
-        </ul>
-      </div>
-    </footer>
-  </body>
+      <ul>
+        <li><span>Telefono</span></li>
+        <li><a href="mailto:mail@mail.com">Mail</a></li>
+        <li><span>Direccion</span></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
