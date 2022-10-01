@@ -1,0 +1,12 @@
+@import "colors";
+@import "nav";
+
+header{
+    background-color: map-get($map: $colores, $key: bg-header);
+    @include mp(0.5rem,0.5rem);
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

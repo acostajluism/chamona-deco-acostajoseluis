@@ -1,0 +1,32 @@
+@import "colors";
+@import "nav";
+
+footer{
+    background-color: map-get($map: $colores, $key: bg-footer);
+    @include mp(0.5rem, 0.5rem);
+    ul{
+        list-style-type: none;
+        li{
+            %estilo-items{
+                text-decoration: none;
+                color: #15182c; 
+                &:hover{
+                    font-weight: bold;
+                    color: #1025af;
+                  }
+
+                }
+            a{
+                @extend %estilo-items;
+            }    
+            span{
+                @extend %estilo-items;
+            }
+            }
+            
+            
+
+            
+        }
+
+    }
